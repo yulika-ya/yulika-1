@@ -1,0 +1,89 @@
+body {
+font-size: 14px;
+font-family: Arial, sans-serif;
+color: #000;
+}
+
+h1 {
+	margin:0px 10px 15px 0px;
+}
+
+h3 {
+	margin:0px;
+	position: absolute;
+	top:0;
+	left: 0;
+	width:100%;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+.navbar-default .navbar-brand {
+	font-size: 22px;
+	font-weight: 700;
+	color:#000;
+}
+
+.navbar-default .navbar-brand:hover {
+	color:#000;
+}
+
+#header-nav {
+	border-radius: 0px;
+	border:none;
+}
+
+#bs-example-navbar-collapse-1 ul {
+	background-color: #F3F5C4;
+}
+
+#bs-example-navbar-collapse-1 ul li {
+	border-bottom: 1px solid rgb(224, 231, 109);
+}
+
+#bs-example-navbar-collapse-1 ul li:first-child {
+	border-top: 1px solid rgb(224, 231, 109);
+}
+
+#bs-example-navbar-collapse-1 ul li:hover {
+	background-color: rgb(224, 231, 109);
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#000;
+}
+
+
+.navbar-default .navbar-collapse {
+	border:none;
+}
+
+/*.menu-content {
+	padding: 10px;
+	background-color: #ddd;
+}*/
+
+.menu-content {
+	padding: 15px;
+	background-color: #F3F5C4;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.menu-content p {
+margin-top:20px;
+}
+
+.menu-content-sushi h3 {
+background-color: rgb(60, 186, 200);
+}
+
+.menu-content-chicken h3 {
+background-color: rgb(249, 203, 143);
+}
+
+.menu-content-beef h3 {
+background-color: rgb(241, 145, 126);
+}
